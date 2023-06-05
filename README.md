@@ -36,13 +36,13 @@ while True:
             ```
 # SERVER:
 ```
- import socket
+  import socket
  
-s=socket.socket()
+ s=socket.socket()
 
-s.connect(('localhost',8000))
+ s.connect(('localhost',8000))
 
-while True:
+ while True:
 
     print(s.recv(1024).decode())
     
